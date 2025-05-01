@@ -1,0 +1,290 @@
+<!-- Dan Huynh 9057270-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Dan Huynh's Portfolio - Inner Page</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-content">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="Site Logo" />
+            </a>
+          </div>
+          <p>
+            PROG8540 Major Project: Portfolio - Dan Huynh -
+            dhuynh7270@conestogac.on.ca
+          </p>
+        </div>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="inner.html">Inner Page</a>
+            <ul>
+              <li><a href="inner.html#video">Video</a></li>
+              <li><a href="inner.html#project-table">Project Table</a></li>
+              <li><a href="inner.html#contact-form">Contact Form</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <!-- Hero image section with title overlay -->
+        <div class="hero">
+          <img src="images/hero-image.jpg" alt="Inner Page Hero Image" />
+
+          <div class="inner-hero-title">
+            <h1>Inner Page</h1>
+          </div>
+        </div>
+
+
+      
+        <section id="video" class="mixed-section">
+          <div >
+            <h2>NotifyMed Demo</h2>
+            <ul>
+              <li>Dan Huynh (<a href="https://github.com/danhuynh1" target="_blank">GitHub: danhuynh1</a>)</li>
+              <li>Julian Chu (<a href="https://github.com/julchu" target="_blank">GitHub: julchu</a>)</li>
+            </ul>
+            <h2>Inspiration</h2>
+            <ul>
+              <li>Medical patients sometimes struggle with forgetfulness and don't remember taking their routinely medication</li>
+          </ul>
+          
+            <h2>What it does</h2>
+            <ul>
+              <li>This solution allows users to enter reminders that will periodically send alerts throughout the day</li>
+              <li>Users can only dismiss the reminders by creating an audio recording acknowledging that they've taken the medication</li>
+              <li>The app will also keep track of the days a reminder has been dismissed or missed</li>
+            </ul>
+          
+            <h2>Accomplishments that I'm proud of</h2>
+            <ul>
+              <li>Learning about Swift, being able to design and transform this idea into a real product</li>
+              <li>Awarded 3rd Place at Laurier's iPhone App Competition</li>
+              <li>Learning and developing in a technology (iOS) that I've always been interested in learning</li>
+            </ul>
+    
+          </div>
+          <div class="video-content">
+            <video width="1280px" height="720px" controls poster="images/section1-image.jpg">
+              <source src="media/notifymedpresentation.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </section>
+
+        <section class="project-table" id="project-table">
+          <h2>Project Technologies</h2>
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Project Name</th>
+                  <th>Languages</th>
+                  <th>Frameworks</th>
+                  <th>Development Time</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>NotifyMed</td>
+                  <td>Swift</td>
+                  <td>UIKit, CoreData</td>
+                  <td>1 month</td>
+                  <td>Deprecrated</td>
+                </tr>
+                <tr>
+                  <td>Discord Riot API Bot</td>
+                  <td>Python</td>
+                  <td>discord.py, Riot API</td>
+                  <td>1 week</td>
+                  <td>Deprecated</td>
+                </tr>
+                <tr>
+                  <td>RepTimeX</td>
+                  <td>Java, SQLite</td>
+                  <td>Android Studio</td>
+                  <td>1 month</td>
+                  <td>Complete</td>
+                </tr>
+                <tr>
+                  <td>Full Stack Car Inventory</td>
+                  <td>Java, SQL, HTML</td>
+                  <td>Spring Boot, Bootstrap, React</td>
+                  <td>2 weeks</td>
+                  <td>Complete</td>
+                </tr>
+                <tr>
+                  <td>Content Management System</td>
+                  <td>HTML, CSS, JavaScript, MongoDB</td>
+                  <td>Express, NodeJS</td>
+                  <td>1 week</td>
+                  <td>Complete</td>
+                </tr>
+                <tr>
+                  <td>Portfolio Website</td>
+                  <td>HTML, CSS</td>
+                  <td>None</td>
+                  <td>1 week</td>
+                  <td>Complete</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="full-width"id="contact-form">
+          <h2>Contact Me</h2>
+          <div class="form-container">
+            <form action="" method="post">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="interest">Interest:</label>
+                <select id="interest" name="interest">
+                  <optgroup label="Development">
+                    <option value="web">Web Development</option>
+                    <option value="mobile">Mobile App Development</option>
+                    <option value="game">Game Development</option>
+                  </optgroup>
+                  <optgroup label="Engineering">
+                    <option value="backend">Backend Engineering</option>
+                    <option value="frontend">Frontend Engineering</option>
+                    <option value="devops">DevOps</option>
+                  </optgroup>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+              </div>
+
+              <div class="checkbox-group">
+                <p>
+                  What services are you interested in? (Select all that apply)
+                </p>
+                <input
+                  type="checkbox"
+                  id="service1"
+                  name="services"
+                  value="consulting"
+                />
+                <label for="service1">Consulting</label>
+
+                <input
+                  type="checkbox"
+                  id="service2"
+                  name="services"
+                  value="development"
+                />
+                <label for="service2">Custom Development</label>
+
+                <input
+                  type="checkbox"
+                  id="service3"
+                  name="services"
+                  value="other"
+                />
+                <label for="service3">Other</label>
+
+              </div>
+
+              <div class="radio-group">
+                <p>How did you find my portfolio?</p>
+
+                <input type="radio" id="source2" name="source" value="social" />
+                <label for="source2">Social Media</label>
+
+                <input
+                  type="radio"
+                  id="source3"
+                  name="source"
+                  value="referral"
+                />
+                <label for="source3">Personal Referral</label>
+              </div>
+
+              <div class="form-buttons">
+                <button type="reset" class="button">Reset Form</button>
+                <button type="submit" class="button">Submit</button>
+              </div>
+            </form>
+                   
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-menus">
+          <div class="footer-menu">
+            <h4>Pages</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about-me">About</a></li>
+              <li><a href="inner.html">Inner Page</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-menu">
+            <h4>Second Footer</h4>
+            <ul>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-menu">
+            <h4>Contact</h4>
+            <ul>
+              <li>
+                <a href="mailto:dhuynh7270@conestogac.on.ca">Email Me</a>
+              </li>
+              <li>
+                <a href="https://github.com/danhuynh1" target="_blank"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/danhuynh1"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>
+            &copy; 2025 PROG8540 Major Project: Portfolio - Dan Huynh -
+            dhuynh7270@conestogac.on.ca
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,279 @@
+<!-- Dan Huynh 9057270-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Dan Huynh's Portfolio - Home</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-content">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="Site Logo" />
+            </a>
+          </div>
+          <p>
+            PROG8540 Major Project: Portfolio - Dan Huynh -
+            dhuynh7270@conestogac.on.ca
+          </p>
+        </div>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="inner.html">Inner Page</a>
+            <ul>
+              <li><a href="inner.html#video">Video</a></li>
+              <li><a href="inner.html#project-table">Project Table</a></li>
+              <li><a href="inner.html#contact-form">Contact Form</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <div class="hero">
+          <img
+            src="images/hero-image.jpg"
+            alt="Hero Image Person coding on Laptop"
+          />
+          <!-- Image hero-image.jpg from Lukas, (2017, September 1). Person encoding in Laptop [Photograph]. From Pexels. https://www.pexels.com/photo/person-encoding-in-laptop-574071/ -->
+        </div>
+
+        <section class="full-width" id="about-me">
+          <div>
+            <h1>About me</h1>
+            <p>
+              Hi, I’m Dan Huynh! I'm a Software Developer in Waterloo, Ontario.
+              I'm currently at Conestoga College completing the Computer
+              Applications Development Program.
+            </p>
+
+            <p>
+              <a
+                href="https://github.com/danhuynh1/Resume/raw/a668d33fb235b2b0a49dd97997af1b3d66cea398/dan_11042024_resume.pdf"
+              >
+                Check out my resume!
+              </a>
+            </p>
+            <p>Below are some of my projects.</p>
+            <p>Thank you so much for taking the time to visit!</p>
+            <br />
+          </div>
+        </section>
+
+        <section class="full-width">
+          <div>
+            <h2>Skills and Technologies</h2>
+            <ul>
+              <li>
+                <strong>Languages</strong>: Java, C, Python, JavaScript, Swift,
+                HTML, CSS, XML, VBA, C#
+              </li>
+              <li>
+                <strong>Frameworks</strong>: Spring Boot, React, NodeJS,
+                ExpressJS, WPF, Swift(iOS), Android
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <p><strong>Backend</strong>: Spring Boot, REST APIs, JUnit</p>
+              </li>
+              <li><strong>Databases</strong>: SQL, Azure, AWS, MongoDB</li>
+              <li><strong>Tools</strong>: Git, Azure DevOps, JIRA</li>
+              <li>
+                <strong>Frontend</strong>: React, Bootstrap, HTML, CSS,
+                ExpressJS
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="mixed-section">
+          <div>
+            <h2><a href="https://github.com/Julchu/NotifyMed">NotifyMed</a></h2>
+            <p>
+              An iOS app to assist patients in accurately tracking their
+              medication intake by leveraging reminders and enabling the logging
+              of medication consumption.
+            </p>
+            <p>
+              <strong>Skills:</strong> Swift (Programming Language), MVC
+              Software Design
+            </p>
+          </div>
+          <div class="image-content">
+            <img
+              src="images/section1-image.jpg"
+              alt="Description of image"
+              class="clip-path-1"
+            />
+          </div>
+        </section>
+
+        <section class="reverse mixed-section">
+          <div>
+            <h2>
+              <a href="https://github.com/danhuynh1/DiscordLoLRankBot"
+                >Discord Riot API Bot
+              </a>
+            </h2>
+            <p>
+              A Python bot using discord2.py API Wrapper to search and display
+              Riot League of Legends Ranked API Using Discord's slash command to
+              input search for League of Legends Rank
+            </p>
+            <p><strong>Skills:</strong> Python, Discord API, Riot API</p>
+          </div>
+          <div class="image-content">
+            <img
+              src="images/section2-image.jpg"
+              alt="Description of image"
+              class="clip-path-2"
+            />
+          </div>
+        </section>
+
+        <section class="cards-section">
+          <h2>More Projects</h2>
+          <div class="cards">
+            <article class="card">
+              <a href="inner.html" class="image-link">
+                <img src="images/reptimex.jpg" alt="RepTimeX App" />
+                <!-- reptimex.jpg from Android icons created by Freepik - Flaticon (https://www.flaticon.com/free-icons/android) -->
+                <h3>RepTimeX Workout Tracker</h3>
+              </a>
+
+              <div class="card-content">
+                <ul>
+                  <li>Android app for timed workouts</li>
+                  <li>Interval-based fitness routine builder</li>
+                  <li>SQLite data storage</li>
+                </ul>
+              </div>
+              <a
+                href="https://github.com/JuliusFan/RepTimeX"
+                target="_blank"
+                class="button"
+                >Learn More</a
+              >
+            </article>
+
+            <article class="card">
+              <a href="inner.html"
+                class="image-link"
+              >
+                <img
+                  src="images/car-dealership.jpg"
+                  alt="Car Dealership Project"
+                />
+                <!-- car-dealership.jpg From Java icon created by Freepik - Flaticon (https://www.flaticon.com/free-icons/java) -->
+
+                <h3>Car Dealership Web App</h3>
+              </a>
+
+              <div class="card-content">
+                <ul>
+                  <li>Full Stack Java SpringBoot React</li>
+                  <li>Admin Authentication</li>
+                  <li>MySQL DB Inventory with full CRUD support</li>
+                </ul>
+              </div>
+              <a
+                href="https://github.com/junha1532/CarDealership"
+                class="button"
+                >Learn More</a
+              >
+            </article>
+
+            <article class="card">
+              <a href="inner.html"
+                class="image-link"
+              >
+                <img src="images/js-cms.jpg" alt="JavaScript CMS Project" />
+                <!-- js-cms.jpg From Javascript icons created by Smashicons - Flaticon (https://www.flaticon.com/free-icons/javascript) -->
+
+                <h3>MERN CMS</h3>
+              </a>
+
+              <div class="card-content">
+                <ul>
+                  <li>Custom-built content management system</li>
+                  <li>Node.js, Express, MongoDB</li>
+                  <li>Live editing and markdown support</li>
+                </ul>
+              </div>
+              <a
+                href="https://github.com/danhuynh1/js-cms"
+                target="_blank"
+                class="button"
+                >Learn More</a
+              >
+            </article>
+          </div>
+        </section>
+
+        <footer>
+          <div class="footer-menus">
+            <div class="footer-menu">
+              <h4>Pages</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about-me">About</a></li>
+                <li><a href="inner.html">Inner Page</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-menu">
+              <h4>Second Footer</h4>
+              <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-menu">
+              <h4>Contact</h4>
+              <ul>
+                <li>
+                  <a href="mailto:dhuynh7270@conestogac.on.ca">Email Me</a>
+                </li>
+                <li>
+                  <a href="https://github.com/danhuynh1" target="_blank"
+                    >GitHub</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/danhuynh1"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="copyright">
+            <p>
+              &copy; 2025 PROG8540 Major Project: Portfolio - Dan Huynh -
+              dhuynh7270@conestogac.on.ca
+            </p>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
